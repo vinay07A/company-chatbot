@@ -1,0 +1,28 @@
+{
+  "name": "company-chatbot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@langchain/anthropic": "^1.0.0",
+    "@langchain/community": "^1.0.0",
+    "@langchain/core": "^1.0.2",
+    "@langchain/openai": "^1.0.0",
+    "@langchain/pinecone": "^1.0.0",
+    "@langchain/textsplitters": "^1.0.0",
+    "@pinecone-database/pinecone": "^5.1.2",
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "groq-sdk": "^0.34.0",
+    "langchain": "^1.0.2",
+    "node-cache": "^5.1.2",
+    "pdf-parse": "^1.1.1"
+  }
+}
